@@ -1,0 +1,121 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #3580C2;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+/*Top hero header with nav*/
+
+header {
+  background: url("assets/home/budapest.jpg") no-repeat;
+  background-size: cover;
+  height: 460px;
+  z-index: 1;
+  position: relative;
+}
+
+
+header:before {
+  background: #004447;
+  z-index: 2;
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: .7;
+}
+
+
+header nav {
+  padding: 5px 200px;
+  z-index: 3;
+  position: relative;
+}
+
+
+header nav ul {
+  margin: 0 auto;
+}
+
+
+header nav li {
+  display: inline-block;
+  color: white;
+  font-weight: lighter;
+  padding: 0 15px;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav_logo {
+  width: 50px;
+}
+
+.social {
+float: right;
+vertical-align: top;
+position: absolute;
+top: 0;
+right: 0;
+}
+
+.twitter {
+width: 25px;
+height: 25px;
+padding: 30px 50px 50px 50px;
+}
+
+.facebook {
+  width: 30px;
+  height: 30px;
+  padding: 30px 50px 50px 0;
+}
+
+#homepage_heading {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 150px 340px 100px 340px;
+  font-size: 38px;
+  color: white;
+  word-spacing: 20px;
+  z-index: 3;
+}
+
+.yellow {
+  color: yellow;
+}
+
+#homepage_heading img {
+  width: 133px;
+  vertical-align: middle;
+}
+
+/*Main - Subheading*/
+
+.subheading {
+  font-size: 30px;
+  font-weight: lighter;
+  padding: 95px 150px;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+
+/*Main - Speakers*/
+
+.section_header {
+  text-align: center;
+}
