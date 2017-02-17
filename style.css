@@ -1,13 +1,44 @@
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   box-sizing: border-box;
 }
 
+
 h2 {
   color: #3580C2;
-  font-size: 30px;
+  font-size: 2em;
   text-transform: uppercase;
+  padding-bottom: 30px;
 }
+
+h3 {
+  color: #3580C2;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+
+h4 {
+  color: #DB3127;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: inherit;
+}
+
+
 
 /*Top hero header with nav*/
 
@@ -111,11 +142,47 @@ padding: 30px 50px 50px 50px;
   padding: 95px 150px;
   max-width: 560px;
   margin: 0 auto;
+  text-align: center;
+}
+
+article {
+  width: 960px;
+  margin: 0 auto;
 }
 
 
 /*Main - Speakers*/
 
+
 .section_header {
   text-align: center;
+}
+
+.speaker_img {
+  height: 120px;
+  widows: 120px;
+  float: left;
+  margin-right: 20px;
+}
+
+.speaker {
+  float: left;
+  width: 49%;
+  min-height: 175px;
+  margin: 0 5px 20px 0;
+}
+
+.twitter_handle {
+color: #969696;
+font-weight: 300;
+text-transform: lowercase;
+margin-left: 5px;
+}
+
+.twitter_handle:visited {
+  color: #969696;
+}
+
+.twitter_handle:hover {
+  text-decoration: none;
 }
